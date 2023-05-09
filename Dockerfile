@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y supervisor wget unzip
 
 # 定义 UUID 及 伪装路径,请自行修改.(注意:伪装路径以 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
 ENV UUID a364ed48-fb6a-40c7-bfae-d7069cee4dd3
-ENV VMESS_WSPATH /vmnnpy
+ENV VMESS_WSPATH /vlnnpyt
 ENV VLESS_WSPATH /vlnnpyt
 
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
